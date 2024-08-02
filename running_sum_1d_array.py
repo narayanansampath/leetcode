@@ -12,9 +12,9 @@ from typing import List
 
 class Solution:
     def runningSum(self, nums: List[int]) -> List[int]:
-        sum = 0
+        currSum = 0
         result = []
         for i in nums:
-            sum += i
-            result.append(sum)
+            currSum += i
+            result.append(currSum)
         return result
