@@ -11,7 +11,6 @@ from typing import List
 
 class NumArray:
     def __init__(self, nums: List[int]):
-        self.prefix_sum = []
         currSum = 0
         self.prefix_sum = [0]
         for i in nums:
